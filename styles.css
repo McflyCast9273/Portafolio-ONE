@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(to right, #0a5326, #933623);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+h1 {
+    color: #362692;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none; 
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #470fdf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6b58af;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.gato {
+    width: 200px; 
+    height: auto;
+    position: absolute;
+    top: 500px; 
+    right: 220px; 
+}
+
+.aviso {
+    color: #524b4b;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+footer {
+    margin-top: 300px;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    font-family: "Times New Roman", 'Times New Roman', Times, serif; 
+    font-size: 10px; 
+}
+
+body {
+    background: url('Fondo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
